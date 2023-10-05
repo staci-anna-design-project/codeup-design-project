@@ -88,7 +88,7 @@ h1, h2, .circle, .icon {
 	background-color: #00aba9;
 }
 
-.icon {
+.icon.red{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -97,6 +97,47 @@ h1, h2, .circle, .icon {
 	color: black;
 	border-radius: 100%;
 	background-color: #e6563b;
-	padding: 0;
+	border-color: #e6563b;
+	padding: 12px;
+}
+.icon.orange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    color: black;
+	border-color: #eb9d3a;
+    border-radius: 100%;
+    background-color: #eb9d3a;
+    padding: 12px;
+}
+.icon.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 100%;
+    background-color: #7cb06c;
+	border-color: #7cb06c;
+    padding: 12px;
+}
+.icon.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 100%;
+    background-color: #00aba9;
+	border-color: #00aba9;
+    padding: 12px;
+}
+
+.selected-img {
+	border: 15px solid #f0f0f0;
 }
 
