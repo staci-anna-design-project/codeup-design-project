@@ -17,6 +17,7 @@ div.tall-row {
 	height: 300px;
 }
 
+/*our css starts*/
 body {
 	background-color: #e6e6e6;
 	background-size: cover;
@@ -26,6 +27,10 @@ nav, h3 {
 	font-family: Abel, Serif;
 }
 
+main {
+	margin: 15px 10px;
+}
+
 span img {
 	width: 30px;
 	height: 30px;
@@ -33,6 +38,10 @@ span img {
 
 h1, h2, .circle, .icon {
 	font-family: Anton, Serif;
+}
+
+h3 {
+	margin: 0;
 }
 
 .circle {
@@ -88,7 +97,7 @@ h1, h2, .circle, .icon {
 	background-color: #00aba9;
 }
 
-.icon.red{
+#redIcon{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -99,8 +108,9 @@ h1, h2, .circle, .icon {
 	background-color: #e6563b;
 	border-color: #e6563b;
 	padding: 12px;
+	margin: 3px;
 }
-.icon.orange{
+#orangeIcon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +121,9 @@ h1, h2, .circle, .icon {
     border-radius: 100%;
     background-color: #eb9d3a;
     padding: 12px;
+	margin: 3px;
 }
-.icon.green{
+#greenIcon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,8 +134,9 @@ h1, h2, .circle, .icon {
     background-color: #7cb06c;
 	border-color: #7cb06c;
     padding: 12px;
+	margin: 3px;
 }
-.icon.blue{
+#blueIcon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,9 +147,15 @@ h1, h2, .circle, .icon {
     background-color: #00aba9;
 	border-color: #00aba9;
     padding: 12px;
+	margin: 3px;
 }
 
 .selected-img {
 	border: 15px solid #f0f0f0;
+	height: 250px;
+	width: 426px;
 }
 
+.icons {
+	margin: 10px;
+}
