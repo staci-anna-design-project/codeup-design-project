@@ -159,3 +159,10 @@ h3 {
 .icons {
 	margin: 10px;
 }
+
+#the-last img {
+	border: 10px solid #f0f0f0;
+	width: 100px;
+	height: 100px;
+}
+
