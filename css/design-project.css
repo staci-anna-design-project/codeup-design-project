@@ -1,30 +1,16 @@
-/*
-vh vs. % article
-https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-between-vh-vw-and
- */
-body {
-	height: 100vh;
-}
-/* row color */
-div.row {
-	border: 1px dashed blue;
-}
-/* cell color */
-div.row > div {
-	border: 1px solid red;
-}
-div.tall-row {
-	height: 300px;
-}
 
-/*our css starts*/
 body {
-	background-color: #e6e6e6;
+	background-color: #f0f0f0;
 	background-size: cover;
+	margin: 15px;
 }
 
 nav, h3 {
 	font-family: Abel, Serif;
+}
+
+header h1 {
+	font-size: 55px;
 }
 
 main {
@@ -36,16 +22,12 @@ span img {
 	height: 30px;
 }
 
-h1, h2, .circle, .icon {
+h1, h2, .circle, .icons, #the-last h3 {
 	font-family: Anton, Serif;
 }
 
-h3 {
-	margin: 0;
-}
-
 .circle {
-	margin: 15px;
+	margin: 18px;
 }
 
 #red {
@@ -97,7 +79,7 @@ h3 {
 	background-color: #00aba9;
 }
 
-#redIcon{
+#redIcon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -110,58 +92,55 @@ h3 {
 	padding: 12px;
 	margin: 3px;
 }
-#orangeIcon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18px;
-    height: 18px;
-    color: black;
+
+#orangeIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 18px;
+	height: 18px;
+	color: black;
 	border-color: #eb9d3a;
-    border-radius: 100%;
-    background-color: #eb9d3a;
-    padding: 12px;
+	border-radius: 100%;
+	background-color: #eb9d3a;
+	padding: 12px;
 	margin: 3px;
 }
-#greenIcon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18px;
-    height: 18px;
-    color: black;
-    border-radius: 100%;
-    background-color: #7cb06c;
+
+#greenIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 18px;
+	height: 18px;
+	color: black;
+	border-radius: 100%;
+	background-color: #7cb06c;
 	border-color: #7cb06c;
-    padding: 12px;
+	padding: 12px;
 	margin: 3px;
 }
-#blueIcon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18px;
-    height: 18px;
-    color: black;
-    border-radius: 100%;
-    background-color: #00aba9;
+
+#blueIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 18px;
+	height: 18px;
+	color: black;
+	border-radius: 100%;
+	background-color: #00aba9;
 	border-color: #00aba9;
-    padding: 12px;
+	padding: 12px;
 	margin: 3px;
 }
 
 .selected-img {
-	border: 15px solid #f0f0f0;
-	height: 250px;
-	width: 426px;
+	border: 15px solid #e6e6e6;
 }
 
-.icons {
-	margin: 10px;
-}
-
-#the-last img {
-	border: 10px solid #f0f0f0;
+#sidebar img {
+	border: 10px solid #e6e6e6;
 	width: 100px;
 	height: 100px;
 }
